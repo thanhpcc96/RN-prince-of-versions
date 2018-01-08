@@ -7,6 +7,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
 public class RNPrinceOfVersionsModule extends ReactContextBaseJavaModule {
+  private static final String TAG = RNPrinceOfVersionsModule.class.getSimpleName();
 
   private final ReactApplicationContext reactContext;
 
