@@ -34,7 +34,7 @@
      compile project(':react-native-prince-of-versions')
    ```
 4. Insert the following lines inside the dependencies block in
-   `android/build.gradle`:
+`android/build.gradle`:
    `compile 'co.infinum:prince-of-versions:latest_version'`
    #### Windows
    [Read it! :D](Don't support)
