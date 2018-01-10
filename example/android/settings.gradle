@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-prince-of-versions'
+project(':react-native-prince-of-versions').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-prince-of-versions/android')
+
+include ':app'
